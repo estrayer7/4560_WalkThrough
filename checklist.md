@@ -11,9 +11,9 @@
 - [ ] Are the order of operations in computations assumed correctly?
 
 #### Comparison Errors
-- [ ] Are any = operator used when == is needed?
-- [ ] Are comparison operators correct?
-- [ ] Are boolean operators and the operands they are used on correct?
+- [X] Are any = operator used when == is needed?
+- [X] Are comparison operators correct?
+- [X] Are boolean operators and the operands they are used on correct?
 - [ ] Are comparisons to floating point numbers handled correctly?
 
 #### Control-Flow Errors
