@@ -2,6 +2,7 @@
 ## Elijah Strayer, Roy Rojas Gutierrez
 
 ### Faults
+- ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
 
 ### Inconsistencies
 
