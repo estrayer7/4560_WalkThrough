@@ -9,3 +9,4 @@
 
 ### Possible Improvements
 - Alphabetize imports and variables so they are easier to find and makes the code look cleaner
+- ```srcSAXEventDispatcher.hpp``` line 541, 550 have comments with problems to fix
