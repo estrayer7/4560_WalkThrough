@@ -19,7 +19,7 @@
 #### Control-Flow Errors
 - [ ] All loops/recursive will terminate?
 - [ ] Are there any off-by-one errors?
-- [ ] Are no do-while-statements used?
+- [X] Are no do-while-statements used?
 
 #### Function Errors
 - [ ] Are all arguments passed in the correct order?
@@ -35,7 +35,7 @@
 - [ ] Are all constant literals assigned a constant variable?
 - [ ] Are returned error codes/states checked and handled correctly?
 - [ ] Are all exceptions caught and handled correctly?
-- [ ] Are there no uses of using namespace std;
+- [X] Are there no uses of using namespace std;
 
 
 Based on Art of Software Testing: Glenford J. Myers; Corey Sandler; Tom Badgett
