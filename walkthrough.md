@@ -5,10 +5,14 @@
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
 
 ### Inconsistencies
-
+- ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the ammount fo comments deminishes
 ### Requirements Violations
 
 ### Possible Improvements
 - Alphabetize imports and variables so they are easier to find and makes the code look cleaner
 - ```srcSAXEventDispatcher.hpp``` line 541, 550 have comments with problems to fix
 - ```srcSAXEventDispatcher.hpp``` Delete commented out deprecated code on lines 849-857, 312
+- It would be helpful if all files had a description at the top as to what its purpose is
+- ```srcSAXEventDispatchUtilities.hpp``` There is a TODO comment in line 437
+
+
