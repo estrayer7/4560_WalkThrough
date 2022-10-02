@@ -17,6 +17,7 @@ used in the constructor and for nothing else get ride of them
 - ```srcSAXEventDispatchUtilities.hpp``` line 88 all the strings and line 111 num_numspaces and namespaces
  are declared but not used anywhere
 - ```srcSAXEventDispatchUtilities.hpp``` members that the constructor sets up should be private data members
+- ```srcSAXEventDispatchUtilities.hpp``` line 229 should use setDispatched method
  
 ### Requirements Violations
 
