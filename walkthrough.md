@@ -10,6 +10,7 @@
  make me think dispatched would be set to false. 
 - ```srcSAXEventDispatchUtilities.hpp``` dipatcher, elementStack, depth, currentLineNumber are only 
 used in the constructor and for nothing else get ride of them
+- ```srcSAXEventDispatchUtilities.hpp``` line 88 all the strigs are declared but not used anywhere
  
 ### Requirements Violations
 
