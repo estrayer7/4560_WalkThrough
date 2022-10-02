@@ -7,7 +7,6 @@
 used in the function body
 - ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
 function name, breaks don't repeat yourself
-- ```srcSAXEventDispatchUtilities.hpp``` line 115 wrong syntax usage of map
 - ```srcSAXEventDispatch.hpp``` line 67 srcSAXHandler class does not exist anywhere
 
 ### Inconsistencies
