@@ -7,17 +7,17 @@
 #### Computation Errors
 - [ ] Is there any use of integer division with floating point devision is required?
 - [ ] Is there a possibility of overflow or underflow during computation?
-- [ ] Is there a possibility of a divide by zero?
-- [ ] Are the order of operations in computations assumed correctly?
+- [X] Is there a possibility of a divide by zero?
+- [X] Are the order of operations in computations assumed correctly?
 
 #### Comparison Errors
 - [X] Are any = operator used when == is needed?
 - [X] Are comparison operators correct?
 - [X] Are boolean operators and the operands they are used on correct?
-- [ ] Are comparisons to floating point numbers handled correctly?
+- [X] Are comparisons to floating point numbers handled correctly?
 
 #### Control-Flow Errors
-- [x] All loops/recursive will terminate?
+- [X] All loops/recursive will terminate?
 - [ ] Are there any off-by-one errors?
 - [X] Are no do-while-statements used?
 
