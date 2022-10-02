@@ -5,6 +5,8 @@
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
 - ```srcSAXEventDispatchUtilities.hpp``` const char* URI is capitalized in parameter but lowercase is 
 used in the function body
+- ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
+function name, breaks don't repeat yourself
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
