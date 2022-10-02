@@ -6,6 +6,8 @@
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
+- ```srcSAXSingleEventDispatcher.hpp``` line 39 and 43 method names are confusing, no dispatch 
+ make me think dispatched would be set to false. 
 ### Requirements Violations
 
 ### Possible Improvements
