@@ -31,5 +31,6 @@ used in the constructor and for nothing else get ride of them
 - Put classes in there own separate files, having some in the same file can get confusing
 - Different variable names for data member and constructor parameters
 - Methids/functions are big and some do more than one responsiblity
+- ```srcSAXEventDispatchUtilities.hpp``` line 438 delete commented out const in parameters
 
 
