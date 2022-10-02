@@ -7,14 +7,13 @@
 used in the function body
 - ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
 function name, breaks don't repeat yourself
--```srcSAXEventDispatchUtilities.hpp``` line 115 wrong syntax usage of map
+- ```srcSAXEventDispatchUtilities.hpp``` line 115 wrong syntax usage of map
+- ```srcSAXEventDispatch.hpp``` line 67 srcSAXHandler class does not exist anywhere
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
 - ```srcSAXSingleEventDispatcher.hpp``` line 39, 43 and 50, 54 method names are confusing, no dispatch 
  make me think dispatched would be set to false. 
-- ```srcSAXEventDispatchUtilities.hpp``` dipatcher, elementStack, depth, currentLineNumber are only 
-used in the constructor and for nothing else get ride of them
 - ```srcSAXEventDispatchUtilities.hpp``` line 88 all the strings and line 111 num_numspaces and namespaces
  are declared but not used anywhere
 - ```srcSAXEventDispatchUtilities.hpp``` members that the constructor sets up should be private data members
@@ -22,8 +21,16 @@ used in the constructor and for nothing else get ride of them
 - ```srcSAXEventDispatchUtilities.hpp``` line 38 not all declared ParserStates are used and line 53 
 not all srcDiff states are used
 - ```srcSAXEventDispatchUtilities.hpp``` line 438 have only one for loop and call both functions in one loop
+- ```srcSAXEventDispatch.hpp``` delete line 49 and just use line 57 CreateListenerHelper same thing with
+CreateListenersImpl
+- ```srcSAXEventDispatch.hpp``` CreateListenerImpl calls CreateListenerHelper which then calls CreateListenerImpl, its circular
+- ```srcSAXEventDispatch.hpp``` line 89 there are two for loops when only one can be used to call both functions
+- ```srcSAXEventDispatch.hpp``` AddEvents and RemoveEvents not used anywhere
+- ```srcSAXEventDispatch.hpp``` make a function to handle setting up process_map and process_map2. a lot of repeated code
+that is the same
  
 ### Requirements Violations
+- Software is not easy to use
 
 ### Possible Improvements
 - Alphabetize imports and variables so they are easier to find and makes the code look cleaner
@@ -36,5 +43,9 @@ not all srcDiff states are used
 - Methids/functions are big and some do more than one responsiblity
 - ```srcSAXEventDispatchUtilities.hpp``` line 438 delete commented out const in parameters
 - import ```srcSAXHandler.hpp``` is used but no file exist
-
+- ```srcSAXEventDispatch.hpp``` line 38-65 are very confusing
+- Confusion between dispatching and dipatched variables hard to keep track of
+- ```srcSAXEventDispatch.hpp``` better name than process_map and process_map2
+- ```srcSAXEventDispatch.hpp``` better name for AddEvent and AddEvents same with remove
+- ```srcSAXEventDispatch.hpp``` line 830 start element has too much that it is doing should make separate functions
 
