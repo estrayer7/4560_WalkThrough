@@ -20,5 +20,6 @@ used in the constructor and for nothing else get ride of them
 - It would be helpful if all files had a description at the top as to what its purpose is
 - ```srcSAXEventDispatchUtilities.hpp``` There is a TODO comment in line 437
 - Put classes in there own separate files, having some in the same file can get confusing
+- Different variable names for data member and constructor parameters
 
 
