@@ -27,6 +27,7 @@ CreateListenersImpl
 - ```srcSAXEventDispatch.hpp``` AddEvents and RemoveEvents not used anywhere
 - ```srcSAXEventDispatch.hpp``` make a function to handle setting up process_map and process_map2. a lot of repeated code
 that is the same
+- ```srcSAXEventDispatch.hpp``` put document stuff into its own class
  
 ### Requirements Violations
 - Software is not easy to use
@@ -47,4 +48,6 @@ that is the same
 - ```srcSAXEventDispatch.hpp``` better name than process_map and process_map2
 - ```srcSAXEventDispatch.hpp``` better name for AddEvent and AddEvents same with remove
 - ```srcSAXEventDispatch.hpp``` line 830 start element has too much that it is doing should make separate functions
+- ```srcSAXEventDispatch.hpp``` line 940-945 and 963-966 make code into a function for reuse
+- ```srcSAXEventDispatch.hpp``` endRoot and endUnit are basically the same exact function make into one
 
