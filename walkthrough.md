@@ -21,6 +21,7 @@ used in the constructor and for nothing else get ride of them
 - ```srcSAXEventDispatchUtilities.hpp``` line 229 should use setDispatched method
 - ```srcSAXEventDispatchUtilities.hpp``` line 38 not all declared ParserStates are used and line 53 
 not all srcDiff states are used
+- ```srcSAXEventDispatchUtilities.hpp``` line 438 have only one for loop and call both functions in one loop
  
 ### Requirements Violations
 
