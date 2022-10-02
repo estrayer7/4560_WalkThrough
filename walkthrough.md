@@ -7,6 +7,7 @@
 used in the function body
 - ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
 function name, breaks don't repeat yourself
+-```srcSAXEventDispatchUtilities.hpp``` line 115 wrong syntax usage of map
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
