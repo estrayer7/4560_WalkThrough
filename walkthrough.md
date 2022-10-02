@@ -16,5 +16,6 @@
 - ```srcSAXEventDispatcher.hpp``` Delete commented out deprecated code on lines 849-857, 312
 - It would be helpful if all files had a description at the top as to what its purpose is
 - ```srcSAXEventDispatchUtilities.hpp``` There is a TODO comment in line 437
+- Put classes in there own separate files, having some in the same file can get confusing
 
 
