@@ -3,7 +3,8 @@
 
 ### Faults
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
-- ```srcSAXEventDispatchUtilities.hpp``` const char* URI is capitalized in parameter but lowercase is used in the function body
+- ```srcSAXEventDispatchUtilities.hpp``` const char* URI is capitalized in parameter but lowercase is 
+used in the function body
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
@@ -11,7 +12,8 @@
  make me think dispatched would be set to false. 
 - ```srcSAXEventDispatchUtilities.hpp``` dipatcher, elementStack, depth, currentLineNumber are only 
 used in the constructor and for nothing else get ride of them
-- ```srcSAXEventDispatchUtilities.hpp``` line 88 all the strings are declared but not used anywhere
+- ```srcSAXEventDispatchUtilities.hpp``` line 88 all the strings and line 111 num_numspaces and namespaces
+ are declared but not used anywhere
 - ```srcSAXEventDispatchUtilities.hpp``` members that the constructor sets up should be private data members
  
 ### Requirements Violations
@@ -24,5 +26,6 @@ used in the constructor and for nothing else get ride of them
 - ```srcSAXEventDispatchUtilities.hpp``` There is a TODO comment in line 437
 - Put classes in there own separate files, having some in the same file can get confusing
 - Different variable names for data member and constructor parameters
+- Methids/functions are big and some do more than one responsiblity
 
 
