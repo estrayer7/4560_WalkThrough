@@ -17,7 +17,7 @@
 - [ ] Are comparisons to floating point numbers handled correctly?
 
 #### Control-Flow Errors
-- [ ] All loops/recursive will terminate?
+- [x] All loops/recursive will terminate?
 - [ ] Are there any off-by-one errors?
 - [X] Are no do-while-statements used?
 
