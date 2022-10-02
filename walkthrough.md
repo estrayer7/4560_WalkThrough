@@ -19,6 +19,7 @@ used in the constructor and for nothing else get ride of them
  are declared but not used anywhere
 - ```srcSAXEventDispatchUtilities.hpp``` members that the constructor sets up should be private data members
 - ```srcSAXEventDispatchUtilities.hpp``` line 229 should use setDispatched method
+- ```srcSAXEventDispatchUtilities.hpp``` line 38 not all declared ParserStates are used
  
 ### Requirements Violations
 
