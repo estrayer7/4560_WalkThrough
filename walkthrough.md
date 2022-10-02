@@ -5,7 +5,7 @@
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
 
 ### Inconsistencies
-- ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the ammount fo comments deminishes
+- ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the ammount of comments deminishes
 ### Requirements Violations
 
 ### Possible Improvements
