@@ -11,6 +11,7 @@
 - ```srcSAXEventDispatchUtilities.hpp``` dipatcher, elementStack, depth, currentLineNumber are only 
 used in the constructor and for nothing else get ride of them
 - ```srcSAXEventDispatchUtilities.hpp``` line 88 all the strigs are declared but not used anywhere
+- ```srcSAXEventDispatchUtilities.hpp``` members that the constructor sets up should be private data members
  
 ### Requirements Violations
 
