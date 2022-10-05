@@ -26,9 +26,9 @@
 - [X] Are all by-value parameters never modified?
 
 #### I/O Errors
-- [ ] Are all inputs to the system validated?
+- [X] Are all inputs to the system validated?
 - [X] Are all opened files are closed?
-- [ ] Are end-of-file conditions handled correctly?
+- [X] Are end-of-file conditions handled correctly?
 - [X] Are I/O error conditions handled correctly?
 
 #### Other Errors
