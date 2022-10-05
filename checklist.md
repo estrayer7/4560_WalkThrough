@@ -5,8 +5,8 @@
 - [ ] Are all references through a pointer variable currently allocated?
 
 #### Computation Errors
-- [ ] Is there any use of integer division with floating point devision is required?
-- [ ] Is there a possibility of overflow or underflow during computation?
+- [X] Is there any use of integer division with floating point devision is required?
+- [X] Is there a possibility of overflow or underflow during computation?
 - [X] Is there a possibility of a divide by zero?
 - [X] Are the order of operations in computations assumed correctly?
 
