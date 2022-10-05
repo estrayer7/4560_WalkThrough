@@ -23,7 +23,7 @@
 
 #### Function Errors
 - [ ] Are all arguments passed in the correct order?
-- [ ] Are all by-value parameters never modified?
+- [X] Are all by-value parameters never modified?
 
 #### I/O Errors
 - [ ] Are all inputs to the system validated?
