@@ -18,7 +18,7 @@
 
 #### Control-Flow Errors
 - [X] All loops/recursive will terminate?
-- [ ] Are there any off-by-one errors?
+- [X] Are there any off-by-one errors?
 - [X] Are no do-while-statements used?
 
 #### Function Errors
