@@ -28,6 +28,7 @@ CreateListenersImpl
 - ```srcSAXEventDispatch.hpp``` make a function to handle setting up process_map and process_map2. a lot of repeated code
 that is the same
 - ```srcSAXEventDispatch.hpp``` put document stuff into its own class
+- ```srcSAXEventDispatch.hpp``` xml functions do not have error handling for the file
  
 ### Requirements Violations
 - Software is not easy to use
