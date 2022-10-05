@@ -27,7 +27,7 @@
 
 #### I/O Errors
 - [ ] Are all inputs to the system validated?
-- [ ] Are all opened files are closed?
+- [X] Are all opened files are closed?
 - [ ] Are end-of-file conditions handled correctly?
 - [ ] Are I/O error conditions handled correctly?
 
