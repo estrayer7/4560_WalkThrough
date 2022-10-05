@@ -29,7 +29,7 @@
 - [ ] Are all inputs to the system validated?
 - [X] Are all opened files are closed?
 - [ ] Are end-of-file conditions handled correctly?
-- [ ] Are I/O error conditions handled correctly?
+- [X] Are I/O error conditions handled correctly?
 
 #### Other Errors
 - [ ] Are all constant literals assigned a constant variable?
