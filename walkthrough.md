@@ -1,5 +1,5 @@
 # Walk through srcSAXEventDispatch
-## Elijah Strayer, Roy Rojas Gutierrez (Shared roles bc of group size)
+## Elijah Strayer, Roy Rojas Gutierrez (Shared roles because of group size)
 
 ### Faults
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
