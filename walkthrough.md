@@ -29,6 +29,7 @@ CreateListenersImpl
 that is the same
 - ```srcSAXEventDispatch.hpp``` put document stuff into its own class
 - ```srcSAXEventDispatch.hpp``` xml functions do not have error handling for the file
+- No valaidation for xml file, unless the xml library does this itself
  
 ### Requirements Violations
 - Software is not easy to use
