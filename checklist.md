@@ -2,7 +2,7 @@
 
 #### Data Reference Errors
 - [ ] Are any containers accessed outside their bounds?
-- [ ] Are all references through a pointer variable currently allocated?
+- [X] Are all references through a pointer variable currently allocated?
 
 #### Computation Errors
 - [X] Is there any use of integer division with floating point devision is required?
