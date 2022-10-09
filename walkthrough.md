@@ -2,7 +2,7 @@
 ## Elijah Strayer, Roy Rojas Gutierrez (Shared roles because of group size)
 
 ### Faults
-- ```srcSAXEventDispatchUtilities.hpp``` const char* URI is capitalized in parameter but lowercase is 
+- ```srcSAXEventDispatchUtilities.hpp``` const char* URI line 110 is capitalized in parameter but lowercase is 
 used in the function body
 - ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
 function name, breaks don't repeat yourself
