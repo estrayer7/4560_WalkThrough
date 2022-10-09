@@ -7,7 +7,7 @@ used in the function body
 - ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
 function name, breaks don't repeat yourself
 - ```srcSAXEventDispatch.hpp``` line 67 srcSAXHandler class does not exist anywhere 
-- ```srcSAXEventDispatcher.hpp``` overriding methods that class has no access to; no inheritance from PolicyDispatcher
+
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
