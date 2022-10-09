@@ -32,9 +32,9 @@
 - [X] Are I/O error conditions handled correctly?
 
 #### Other Errors
-- [ ] Are all constant literals assigned a constant variable?
-- [ ] Are returned error codes/states checked and handled correctly?
-- [ ] Are all exceptions caught and handled correctly?
+- [X] Are all constant literals assigned a constant variable?
+- [X] Are returned error codes/states checked and handled correctly?
+- [X] Are all exceptions caught and handled correctly?
 - [X] Are there no uses of using namespace std;
 
 
