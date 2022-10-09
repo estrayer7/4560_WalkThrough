@@ -54,3 +54,4 @@ that is the same
 - ```srcSAXEventDispatch.hpp``` endRoot and endUnit are basically the same exact function make into one
 - ```srcSAXEventDispatcher.hpp``` Extract method from the process_map and process_map2 since many of the statments seem to have similar logic
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
+- ```srcSAXEventDispatcher.hpp``` endRoot and endUnit take arguments that are never used in their respective methods, same with endElement, URI is never used in the method
