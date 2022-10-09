@@ -52,4 +52,5 @@ that is the same
 - ```srcSAXEventDispatch.hpp``` line 830 start element has too much that it is doing should make separate functions
 - ```srcSAXEventDispatch.hpp``` line 940-945 and 963-966 make code into a function for reuse
 - ```srcSAXEventDispatch.hpp``` endRoot and endUnit are basically the same exact function make into one
+- ```srcSAXEventDispatcher.hpp``` Extract method from the process_map and process_map2 since many of the statments seem to have similar logic
 
