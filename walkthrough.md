@@ -56,3 +56,4 @@ that is the same
 - ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
 - ```srcSAXEventDispatcher.hpp``` endRoot and endUnit take arguments that are never used in their respective methods, same with endElement, URI is never used in the method
 - There are sevelar functions like write_start_tag in srcSAXEventDispatchUtilities.hpp, or startRoot and startUnit in srcSAXEventDispatcher.hpp take too many arguments, maybe create different functions to divide operations
+- ```srcSAXEventDispatcher.hpp``` comments from (757 - 768) == (783 - 794) == (817 - 827), could delete all but one section and make adjustments for specific comments on the methods 
