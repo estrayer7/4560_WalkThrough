@@ -2,12 +2,12 @@
 ## Elijah Strayer, Roy Rojas Gutierrez (Shared roles because of group size)
 
 ### Faults
-- ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
 - ```srcSAXEventDispatchUtilities.hpp``` const char* URI is capitalized in parameter but lowercase is 
 used in the function body
 - ```srcSAXEventDispatchUtilities.hpp``` function Nand and Nor use the same exact code just differnt
 function name, breaks don't repeat yourself
-- ```srcSAXEventDispatch.hpp``` line 67 srcSAXHandler class does not exist anywhere
+- ```srcSAXEventDispatch.hpp``` line 67 srcSAXHandler class does not exist anywhere 
+- ```srcSAXEventDispatcher.hpp``` overriding methods that class has no access to; no inheritance from PolicyDispatcher
 
 ### Inconsistencies
 - ```srcSAXEventDispatchUtilities.hpp``` As the code progresses, the amount of comments deminishes
@@ -53,4 +53,4 @@ that is the same
 - ```srcSAXEventDispatch.hpp``` line 940-945 and 963-966 make code into a function for reuse
 - ```srcSAXEventDispatch.hpp``` endRoot and endUnit are basically the same exact function make into one
 - ```srcSAXEventDispatcher.hpp``` Extract method from the process_map and process_map2 since many of the statments seem to have similar logic
-
+- ```srcSAXEventDispatcher.hpp``` line 775 and 967 is_archive is used but never declared anywhere
