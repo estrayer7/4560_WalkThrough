@@ -58,3 +58,4 @@ that is the same
 - There are sevelar functions like write_start_tag in srcSAXEventDispatchUtilities.hpp, or startRoot and startUnit in srcSAXEventDispatcher.hpp take too many arguments, maybe create different functions to divide operations
 - ```srcSAXEventDispatcher.hpp``` comments from (757 - 768) == (783 - 794) == (817 - 827), could delete all but one section and make adjustments for specific comments on the methods 
 - Better Format of code specifically indentations to make it easier to find end of functions
+- Move function definitions/implemetnations to their respective cpp files and keep only function prototypes in header files
